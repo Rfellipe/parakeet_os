@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/fellipe/projects/C/parakeet_os",
+    "command": "clang -I/home/fellipe/projects/C/parakeet_os/kernel/include/*",
+    "file": "./*"
+  }
+]
