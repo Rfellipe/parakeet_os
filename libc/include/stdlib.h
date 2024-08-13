@@ -8,7 +8,12 @@ extern "C" {
 #endif
 
 __attribute__((__noreturn__))
-void abort(void);
+void abort(void); // halfway done probably
+int atexit(void (*)(void)); // TODO
+int atoi(const char*); // TODO
+void free(void*); // TODO
+char* getenv(const char*); // TODO;
+void* malloc(size_t); // TODO
 
 #ifdef __cplusplus
 }
